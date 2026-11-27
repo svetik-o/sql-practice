@@ -1,4 +1,5 @@
 import sqlite3
+"""Учебный скрипт: создание таблиц базы данных и выполнение аналитических SQL-запросов."""
 
 with sqlite3.connect("univercity.db") as conn:
     cursor=conn.cursor()
